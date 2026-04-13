@@ -215,7 +215,6 @@ main {
     border: none;
     border-radius: 8px;
     cursor: pointer;
-    transition: all 0.3s ease;
     text-decoration: none;
     display: inline-block;
 }
@@ -253,18 +252,6 @@ main {
     width: 100%;
     height: auto;
     border-radius: 12px;
-}
-
-@keyframes pulse {
-    0%,
-    100% {
-        transform: scale(1);
-        box-shadow: 0 20px 60px rgba(26, 85, 16, 0.3);
-    }
-    50% {
-        transform: scale(1.05);
-        box-shadow: 0 30px 80px rgba(26, 85, 16, 0.5);
-    }
 }
 
 @keyframes fadeInUp {
@@ -309,7 +296,8 @@ section > p:first-of-type {
     background: var(--card-bg);
     border: 1px solid rgba(85, 78, 16, 0.3);
     border-radius: 12px;
-    transition: all 0.3s ease;
+    transition: fadeInUp 1s ease-out 0.2s both;
+    opacity: 0;
     cursor: pointer;
 }
 
@@ -362,7 +350,8 @@ section > p:first-of-type {
     background: var(--card-bg);
     border: 1px solid rgba(205, 156, 46, 0.3);
     border-radius: 12px;
-    transition: all 0.3s ease;
+    transition: fadeInUp 1s ease-out 0.2s both;
+    opacity: 0;
 }
 
 .project-card:hover {
@@ -445,7 +434,8 @@ section > p:first-of-type {
     padding: 1.5rem;
     border-radius: 10px;
     text-align: center;
-    transition: all 0.3s ease;
+    transition: fadeInUp 1s ease-out 0.2s both;
+    opacity: 0;
 }
 
 .stat-card-gold {
@@ -563,7 +553,6 @@ footer {
     justify-content: center;
     color: var(--gold);
     text-decoration: none;
-    transition: all 0.3s ease;
     font-size: 1.2rem;
 }
 
@@ -610,12 +599,6 @@ footer {
 
     .hero-graphic {
         height: 300px;
-    }
-
-    .shield-icon {
-        width: 150px;
-        height: 150px;
-        font-size: 70px;
     }
 
     .about-container {
