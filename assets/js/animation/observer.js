@@ -12,4 +12,4 @@ const observer = new IntersectionObserver(
 	},
 );
 
-document.querySelectorAll(".team-card, .project-card, .stat-card").forEach((el) => observer.observe(el));
+document.querySelectorAll(".project-card, .stat-card").forEach((el) => observer.observe(el));
