@@ -14,8 +14,14 @@ section {
 }
 
 section h2 {
-	font-size: 2.5rem;
+	font-size: 2rem;
 	font-weight: 900;
+	margin-bottom: 1rem;
+}
+
+section h3 {
+	font-size: 1.5rem;
+	font-weight: 700;
 	margin-bottom: 1rem;
 }
 
