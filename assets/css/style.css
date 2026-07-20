@@ -237,7 +237,6 @@ main {
 
 .btn-secondary:hover {
     background-color: rgba(26, 85, 16, 0.1);
-    transform: translateX(5px);
 }
 
 .hero-graphic {
