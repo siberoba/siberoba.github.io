@@ -1,35 +1,14 @@
+---
+title: Siber Oba - Siber Güvenlik Topluluğu
+nav: home
+---
 <!DOCTYPE html>
 <html lang="tr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Siber Oba - Siber Güvenlik Topluluğu</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="shortcut icon" href="assets/img/logo.png" type="image/png">
-
-    <!-- Basic Icons -->
-    <link href="https://cdn.boxicons.com/3.0.8/fonts/basic/boxicons.min.css" rel="stylesheet">
-    <!-- Filled Icons -->
-    <link href="https://cdn.boxicons.com/3.0.8/fonts/filled/boxicons-filled.min.css" rel="stylesheet">
-    <!-- Brand Icons -->
-    <link href="https://cdn.boxicons.com/3.0.8/fonts/brands/boxicons-brands.min.css" rel="stylesheet">
+{% include head.html %}
 </head>
 <body>
-    <nav>
-        <div class="nav-container">
-            <div class="logo">
-                <img src="assets/img/logo.png" alt="Siber Oba Logo">
-                <span>Siber Oba</span>
-            </div>
-            <ul class="nav-links">
-                <li><a href="#home" class="nav-link active">Anasayfa</a></li>
-                <li><a href="#projects" class="nav-link">Projeler</a></li>
-                <li><a href="/about" class="nav-link">Hakkımızda</a></li>
-                <li><a href="/about#teams" class="nav-link">Takımlar</a></li>
-            </ul>
-            <button class="menu-toggle">☰</button>
-        </div>
-    </nav>
+{% include header.html %}
 
     <main>
         <section class="hero" id="home">
@@ -43,9 +22,6 @@
                     <a href="https://app.wecordy.com/invite/yAvXNQnG" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Bize Katıl</a>
                     <a href="/about" class="btn btn-secondary">Daha Fazla Bilgi</a>
                 </div>
-            </div>
-            <div class="hero-graphic">
-                <img src="assets/img/flat-safer-internet-day-background.png" alt="Siber Güvenlik Grafiği">
             </div>
         </section>
 
@@ -129,42 +105,6 @@
         </section>
     </main>
 
-    <!-- Footer -->
-    <footer>
-        <div class="footer-container">
-            <div class="footer-grid">
-                <div class="footer-column">
-                    <div class="logo" style="margin-bottom: 1rem;">
-                        <img src="assets/img/logo.png" alt="Siber Oba Logo">
-                        <span>Siber Oba</span>
-                    </div>
-                    <p>Türkiye'nin modern siber güvenlik topluluğu</p>
-                </div>
-                <div class="footer-column">
-                    <h4>Hızlı Bağlantılar</h4>
-                    <div class="link-grid">
-                        <a href="#home">Anasayfa</a>
-                        <a href="#projects">Projeler</a>
-                        <a href="/about#about">Hakkında</a>
-                        <a href="/about#teams">Takımlar</a>
-                    </div>
-                </div>
-                <div class="footer-column">
-                    <h4>Sosyal Medya</h4>
-                    <div class="social-links">
-                        <a href="https://github.com/siberoba" class="social-link" title="GitHub"><i class="bxl bx-github"></i></a>
-                        <a href="https://www.linkedin.com/company/siberoba" class="social-link" title="LinkedIn"><i class="bxl bx-linkedin"></i></a>
-                        <a href="https://www.youtube.com/@siberoba" class="social-link" title="YouTube"><i class="bxl bx-youtube"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; 2025 Siber Oba. Tüm hakları saklıdır.</p>
-            </div>
-        </div>
-    </footer>
-
-    <!-- JavaScript -->
-    <script src="assets/js/script.js"></script>
+{% include footer.html %}
 </body>
 </html>
