@@ -1,0 +1,26 @@
+@import url("./sections/about.css");
+@import url("./sections/join.css");
+@import url("./sections/project.css");
+
+main {
+	position: relative;
+	z-index: 10;
+}
+
+section {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 2rem 2rem;
+}
+
+section h2 {
+	font-size: 2.5rem;
+	font-weight: 900;
+	margin-bottom: 1rem;
+}
+
+section > p:first-of-type {
+	color: var(--gray-text);
+	font-size: 1.1rem;
+	margin-bottom: 3rem;
+}

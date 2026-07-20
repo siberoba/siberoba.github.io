@@ -1,0 +1,54 @@
+.hero {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 5rem 2rem;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 3rem;
+	align-items: center;
+	min-height: 80vh;
+}
+
+.hero-content h1 {
+	font-size: 3.5rem;
+	font-weight: 900;
+	line-height: 1.2;
+	margin-bottom: 1.5rem;
+	animation: fadeInUp 1s ease-out;
+}
+
+.hero-content h1 .gold {
+	color: var(--gold);
+}
+
+.hero-content h1 .gold {
+	color: var(--gold);
+}
+
+.hero-content p {
+	font-size: 1.2rem;
+	color: var(--gray-text);
+	margin-bottom: 2rem;
+	line-height: 1.8;
+	animation: fadeInUp 1s ease-out 0.2s both;
+}
+
+.hero-buttons {
+	display: flex;
+	gap: 1.5rem;
+	animation: fadeInUp 1s ease-out 0.4s both;
+}
+
+.hero-graphic {
+	position: relative;
+	height: 400px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.hero-graphic img {
+	width: 100%;
+	height: auto;
+	border-radius: 12px;
+}
