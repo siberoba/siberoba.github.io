@@ -28,7 +28,7 @@
 }
 
 .stat-card-gold {
-	background: rgba(26, 85, 16, 0.1);
+	background: rgba(85, 68, 16, 0.1);
 	border-left: 4px solid var(--gold);
 }
 
