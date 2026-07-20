@@ -268,7 +268,7 @@ main {
 section {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 5rem 2rem;
+    padding: 2rem 2rem;
 }
 
 section h2 {
@@ -449,13 +449,9 @@ section > p:first-of-type {
 }
 
 .stat-card h3 {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     font-weight: 900;
     margin-bottom: 0.5rem;
-    color: var(--gold);
-}
-
-.stat-card-gold h3 {
     color: var(--gold);
 }
 
