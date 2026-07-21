@@ -46,7 +46,6 @@
 	.hero {
 		grid-template-columns: 1fr;
 		padding: 3rem 2rem;
-		min-height: auto;
 	}
 
 	.hero-content h1 {
