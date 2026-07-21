@@ -1,12 +1,15 @@
 .hero {
-	max-width: 1200px;
-	margin: 0 auto;
-	padding: 5rem 2rem;
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	gap: 3rem;
+	max-width: none;
+	position: relative;
+	min-height: 100vh;
+	display: flex;
 	align-items: center;
-	min-height: 80vh;
+	justify-content: center;
+	background-image: linear-gradient(rgba(10, 10, 10, 0.75), rgba(10, 10, 10, 0.9)), url("/assets/img/hacker-ai-coding.gif");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	overflow: hidden;
 }
 
 .hero-content h1 {
